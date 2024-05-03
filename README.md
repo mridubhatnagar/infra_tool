@@ -3,6 +3,7 @@
 Infra_tool is a CLI tool to host static website on Amazon S3 bucket. And,
 uses cloudfront distribution to serve as CDN for this website.
 
+
 ## Steps to run the application
 
 NOTE: 
@@ -16,6 +17,13 @@ is clean. And, no bucket exists on AWS with the same bucket name. If bucket exis
 source .venv/bin/activate
 python3 -m pip install -r requirements.txt
 
+```
+## Set up Environment Variables
+
+```
+export AWS_ACCESS_KEY_ID = <access key id value>
+export AWS_SECRET_ACCESS_KEY = <secret access key>
+export AWS_DEFAULT_REGION = <default region>
 ```
 ## Command to run the application
 
