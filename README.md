@@ -28,5 +28,8 @@ python3 infra_tool.py --command create --sitename xyz.tattle.co.in --path <menti
 - `tool.py` - Contains the logic for parsing the command line arguments. Internally, call `cdk deploy` with arguments. `cdk deploy --context key=value --context key=value`.
 - `app.py` - This is the entry point of the application. 
 - `static_website_create_stack.py` - contains logic that creates stack, creates S3 bucket, deploys the buckets, uploads the website assets, adds CDN.
-- `website_assets` - folder contains files that are to be uploaded on S3 and made live.  
+- `website_assets` - folder contains files that are to be uploaded on S3 and made live.
+
+## Sample Website Live.
+- https://d1zwwcu2xtieml.cloudfront.net
 
